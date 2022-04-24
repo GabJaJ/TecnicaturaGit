@@ -7,9 +7,9 @@
 #Proporciona el autor:
 #<titulo> fue escrito por <autor>
 
-
-
-
+titulo = input("Ingrese el Titulo del Libro: ")
+autor = input("Ingrese el Autor: ")
+print(titulo, "fue escrito por:", autor)
 
 
 
