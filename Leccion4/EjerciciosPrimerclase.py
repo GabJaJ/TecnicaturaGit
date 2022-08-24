@@ -59,3 +59,21 @@ tupla = (13, 1, 8, 3, 2, 5, 8) #Definimos la Tupla
 for i in range(len(tupla)):
     if tupla[i] < 5:
         print(tupla[i])
+
+
+#Tipos Set
+planetas = {'Marte', 'Júpiter', 'Venus'}
+print(len(planetas))  # len = lenght
+
+# Revisar si un elemento existe dentro de un set
+print('Júpiter' in planetas)
+
+# Agregar un elemento
+planetas.add('Tierra') # add es una funcion
+print(planetas)
+
+# Eliminar elementos, puede arrojar un error si el elementono existe
+planetas.remover('Júpiter')
+print(planetas)
+
+
