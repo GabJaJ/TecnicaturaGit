@@ -1,3 +1,4 @@
+"""
 miVariable = 3
 print(miVariable)
 miVariable = "Hola a todos!!"
@@ -73,6 +74,33 @@ print("El resultado de la suma es: ", resultado)
 
 
 
+edad = int(input("Ingrese su edad: "))
+if edad >= 18 :
+    print("Es mayor de edad: ", edad)
+else:
+    print("Es menor de edad", edad)
+
+
+a = int(input("Digite un numero: "))
+print(f"El residuo de la division es: {a % 2}")
+if a % 2 == 0:
+     print(f"El valor de a es: {a} es numero PAR")
+else:
+     print(f"El valor de a es: {a} es un numero IMPAR")
+
+
+edadAdulto = 18
+edadPersona = int(input("Digite su edad: "))
+if edadPersona >= edadAdulto:
+     print(f"Su edad es: {edadPersona} años, usted es mayor de edad.")
+else:
+     print(f"Su edad es: {edadPersona} años, usted es menor de edad.")
+
+
+Ejercicio el Mayor de dos numero
+
+
+"""
 
 
 
