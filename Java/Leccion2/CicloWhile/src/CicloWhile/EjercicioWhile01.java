@@ -20,10 +20,24 @@ public class EjercicioWhile01 {
             System.out.println("contando = " + contando);
         }    //en ciclo FOR podemos trabajar sin llaves "{}" en caso de que sea una linea simple
         
-        ​//for(int i=1;i!=0;i++){ 
-        //    System.out.println("Print eterno"); 
-        //}
+        
         
         //for(var contador = 7; contador > 0; contador--) para decremento
+        
+        for(var contando = 0; contando < 7; contando++) {
+            if(contando % 2 == 0){
+                System.out.println("contando = " + contando);
+                break;
+            }
+            
+        }  
+        
+        
+        for(var contando = 0; contando < 7; contando++) {
+            if(contando % 2 != 0){
+                continue;
+            }
+            System.out.println("contando = " + contando);
+        }  
     }
 }
