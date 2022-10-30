@@ -1,4 +1,3 @@
-
 #clase dia miercoles 16/8 - primera clase 2° cuatrimestre
 #laboratorio 2, python
 
@@ -80,8 +79,8 @@ print(perricornios) #la lista está vacía, vemos dos []
 del perricornios # del, viene de "delete"
 #print(perricornios) #tira error, lista no definida.. fue borrada
 
-#TUPLAS  : Lo primero que distingue una lista de una tupla es la sintaxis empleada para crearlas. Las tuplas utilizan paréntesis,
-# mientras que las listas usan corchetes, aunque también es posible crear una tupla tan solo separando los valores por comas.
+#TUPLAS  : Lo primero que distingue una lista de una tupla es la sintaxis empleada para crearlas. Las tuplas utilizan paréntesis,
+# mientras que las listas usan corchetes, aunque también es posible crear una tupla tan solo separando los valores por comas.
 
 #lo escribimos entre ()
 #definimos una tupla
@@ -161,24 +160,24 @@ print(planetas)
 
 # DICCIONARIO : UNA LLAVE Y UN VALOR
 
-# coleccion de datos organizados, es otro tipo de estructura de datos de Python. No es una secuencia 
-# (pero puede adaptarse fácilmente a un procesamiento secuencial) y además es mutable.
+# coleccion de datos organizados, es otro tipo de estructura de datos de Python. No es una secuencia
+# (pero puede adaptarse fácilmente a un procesamiento secuencial) y además es mutable.
 # Para explicar lo que es un diccionario en Python, es importante comprender de manera literal lo que es un diccionario.
-# Un diccionario en Python funciona de la misma manera que un diccionario bilingüe. Por ejemplo, se tiene la palabra
+# Un diccionario en Python funciona de la misma manera que un diccionario bilingüe. Por ejemplo, se tiene la palabra
 # en español "gato" y se necesita su equivalente en francés. Lo que se haría es buscar en el diccionario para encontrar la palabra "gato".
 # Eventualmente la encontrarás, y sabrás que la palabra equivalente en francés es "chat".
 #
 #
-# En el mundo de Python, la palabra que se esta buscando se denomina clave(key). La palabra que se obtiene del
-# diccionario es denominada valor.
-# Esto significa que un diccionario es un conjunto de pares de claves y valores. Nota:
-# 	•	Cada clave debe de ser única. No es posible tener una clave duplicada.
-# 	•	Una clave puede ser un tipo de dato de cualquier tipo: puede ser un número (entero o flotante),
+# En el mundo de Python, la palabra que se esta buscando se denomina clave(key). La palabra que se obtiene del
+# diccionario es denominada valor.
+# Esto significa que un diccionario es un conjunto de pares de claves y valores. Nota:
+# 	•	Cada clave debe de ser única. No es posible tener una clave duplicada.
+# 	•	Una clave puede ser un tipo de dato de cualquier tipo: puede ser un número (entero o flotante),
 # 	o incluso una cadena.
-# 	•	Un diccionario no es una lista. Una lista contiene un conjunto de valores numerados, mientras que un diccionario
+# 	•	Un diccionario no es una lista. Una lista contiene un conjunto de valores numerados, mientras que un diccionario
 # 	almacena pares de valores.
-# 	•	La función len() aplica también para los diccionarios, regresa la cantidad de pares (clave-valor) en el diccionario.
-# 	•	Un diccionario es una herramienta de un solo sentido. Si fuese un diccionario español-francés, podríamos buscar en español
+# 	•	La función len() aplica también para los diccionarios, regresa la cantidad de pares (clave-valor) en el diccionario.
+# 	•	Un diccionario es una herramienta de un solo sentido. Si fuese un diccionario español-francés, podríamos buscar en español
 # 	para encontrar su contraparte en francés más no viceversa.
 
 
@@ -468,3 +467,8 @@ print(f'Continuan: {cola}')
 seRetira = cola.pop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(f'Continuan: {cola}')
+
+for llave, valor in seleccionArgentina.items():
+    print(llave, valor)
+
+

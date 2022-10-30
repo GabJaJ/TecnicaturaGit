@@ -59,5 +59,3 @@ tupla = (13, 1, 8, 3, 2, 5, 8) #Definimos la Tupla
 for i in range(len(tupla)):
     if tupla[i] < 5:
         print(tupla[i])
-
-
